@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 200px;
+    display: flex;
+    border: 2px solid black;
+    flex-flow: row wrap;
+}
+header #contacto{
+    height: 30%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+header #contacto a{
+
+font-size: 18px;
+text-decoration: none;
+padding: 10px;
+color: black;
+
+
+}
+
+
+
+header #contacto a:nth-child(1){
+
+margin-left: 10px;
+background-color: cadetblue;
+
+}
+
+
+
+header #sociales{
+    height: 30%;
+    width:20%;
+    background-color: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+
+}
+
+header #sociales a{
+
+color: black;
+
+}
+
+
+
+header figure{
+    height: 70%;
+    border: 1px solid red;
+    width: 15%;
+    border: 1px solid white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+header figure img{
+    height: 60%;
+
+}
+header #principal{
+    background-color: black;
+    width: 85%;
+    order: 1;
+    border: 1px solid white;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+header #principal a{
+
+text-decoration: none;
+display:flex;
+flex-flow: column nowrap;
+align-items: center;
+
+
+
+
+
+}
+
+
+header #principal a:hover i{
+
+color: red;
+
+
+}
+
+
+header #principal a i{
+
+order: 1;
+font-size: 40px;
+color: yellowgreen;
+padding-bottom: 5px;
+transition: all 1s;
+}
+
+
+header #principal a i span{
+
+order: 2;
+font-family: Satisfy;
+font-size: 20px;
+
+}
+
+
+
+main{
+
+
+
+
+}
+
+
+
+main #breadCrumb{
+
+height: 50px;
+background-color: chocolate;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+
+}
+
+
+main #breadCrumb h2{
+display:flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;
+width: 20%;
+border: 1px solid black;
+text-align: center;
+color: white;
+font-size: 30px;
+font-family: 'Irish-Grover';
+}
+
+
+main #breadCrumb nav{
+
+width: 30%;
+border: 1px solid black;
+display:flex;
+align-items: center;
+}
+
+
+main #breadCrumb nav a{
+
+text-decoration: none;
+padding: 5px;
+font-size: 17px;
+
+}
+
+
+
+
+main #breadCrumb nav a::after{
+
+content: ' > ';
+
+
+}
+
+
+
+
+
+
+main #breadCrumb nav a:nth-child{
+
+color: black;
+font-style: italic;
+text-decoration: underline;
+
+
+
+}
+
+main #breadCrumb nav a:nth-child::after{
+
+
+
+content: '';
+
+}
+
+
+
+main section{
+
+
+}
+
+
+
+main section article{
+
+
+
+}

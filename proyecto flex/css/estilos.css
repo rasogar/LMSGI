@@ -1,0 +1,59 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    /*box-sizing: border-box; MOdelo de cajas avanzado*/
+
+
+}
+
+
+
+
+header figure img{
+
+height: 50px;
+
+}
+
+
+
+
+header figure{
+
+border:1px solid red;
+float: left; /*transformo EB --> El*/
+height: 50px;
+
+}
+
+
+div#middle{
+height: 100%;
+float: left;
+
+}
+
+
+
+header{
+height: 150px;
+background-color:rgba(0, 255, 0, 3);
+
+}
+
+
+main{
+height: 450px;
+background-color:rgba(255, 0, 0, 3);
+
+}
+
+
+
+
+footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 9);
+    
+    }
